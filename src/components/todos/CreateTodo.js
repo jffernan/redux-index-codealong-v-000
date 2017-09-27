@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class CreateTodo extends Component {
+export default class CreateTodo extends Component {
 
   constructor(props) {
     super(props);
@@ -42,6 +42,4 @@ render() {
       </form>
     </div>
   );
-}
-
-export default CreateTodo;
+};
